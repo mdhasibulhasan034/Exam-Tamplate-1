@@ -1,0 +1,452 @@
+@media all and (max-width:1990px) {
+    .admission-sec .f_left img {
+        width: 100%;
+        height: 50rem;
+    }
+    .questions-sec .f_right img {
+        width: 100%;
+        height: 43rem;
+    }
+
+} 
+
+@media all and (max-width:1370px) {
+    .fixwidth{
+        width: 110rem;
+        margin: auto;
+    }
+    html {
+        font-size: 9px;
+    }
+    .full-about .main_about .right .midd {
+        background: #e7f4f6;
+        padding: 1.6rem 0rem;
+        margin: 1.5rem 0;
+    }
+    
+}
+@media all and (max-width:1070px) {
+    .fixwidth {
+        width: 110rem;
+        margin: auto;
+    }
+    html {
+        font-size: 8px;
+    }
+    .full-banner .full_div h2 {
+        font-size: 3.5rem;
+        
+    }
+    .full-about .main_about .right .midd {
+        background: #e7f4f6;
+        padding: 1.8rem 0rem;
+        margin: 1.5rem 0;
+    }
+}
+@media all and (max-width:968px) {
+    .fixwidth {
+        width: 100rem;
+        margin: auto;
+    }
+    .fotter_section .subscribe .s_content .s_right .email {
+        padding: 0rem 1rem;
+        width: 30rem;
+    }
+    .full-about .main_about .right .midd {
+        background: #e7f4f6;
+        padding: 2.2rem 1rem;
+        margin: 1.5rem 0;
+    }
+    .full-about .main_about .left .box .last img {
+        margin-top: 5rem;
+        margin-left: 5rem;
+    }
+    .full-about .main_about .left .box .last p { 
+        margin-left: 5rem;
+    }
+    html {
+        font-size: 7px;
+    }
+    .full-banner .full_div h2 {
+        font-size: 3.5rem;
+        line-height: 5rem;
+        margin-top: 5rem;
+    }
+    .full-banner .full_div p {
+       color: #fff;
+    }
+    .full-banner{
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        color: #fff;
+    }
+    .full-banner::after{
+       content: '';
+       position: absolute;
+       top: 0;
+       left: 0;
+       height: 100%;
+       width: 100%;
+       background: rgba(0,0,0, .5);
+       z-index: -1;
+    }
+    .full-about{
+        margin-top: 6rem !important;
+      }
+    .full-banner .full_div {
+        width: 65%;
+    }
+    
+}
+
+
+@media all and (max-width:750px) {
+    .fixwidth {
+        width: 80rem;
+        margin: auto;
+    }
+    .fotter_section .subscribe .s_content .s_right .submit {
+        margin-left: 17.5rem;
+        margin-top: 3rem;
+    }
+    .fotter_section .subscribe .s_content .s_right .email {
+        width: 26rem;
+    }
+    .category_section .carddd {
+        width: 50%;
+    }
+    .courses_section .card { 
+        width: 50%;
+    }
+    .fotter_section {
+        height: 68rem;
+    }
+    .fotter_section .subscribe .s_content .s_right .email {
+        width: 24rem;
+    }
+    .student_section .flot .inner {
+        float: left;
+        width: 100%;
+    }
+    .news_section {
+        height: 191rem;   
+    }
+
+    .news_section .flot {
+	    float: left;
+	    width: 100%;
+    }
+    .news_section .right_side {
+	    float: right;
+	    width: 100%;
+	    position: relative;
+	    z-index: 999;
+    }
+    .full-about .main_about .left {
+        width: 100%;
+        margin:  auto;
+        padding-left: 0 !important;
+    }
+    .full-about .main_about .right {
+        width: 100%;
+        margin-top: 6rem;
+    }
+    .full-about .main_about .left .box .last img {
+        margin-top: 5rem;
+        margin-left: 2rem;
+    }
+    .full-about .main_about .left .box .last p {      
+        margin-left: 2rem;
+    }
+    .questions-sec .f_left {
+        float: left;
+        width: 100%;
+        background: #f9f8f8;
+    }
+    .questions-sec .f_right {
+        float: right;
+        width: 100%;
+        margin-top: 5rem;
+    }
+    html {
+        font-size: 7px;
+    }
+    .full-banner { 
+        padding: .5rem 0rem 22rem 0rem;
+    }
+    .full-banner .full_div h2 {
+        font-size: 2.8rem;
+        line-height: 5rem;
+        margin-top: 5rem;
+    }
+    .full-banner .full_div p {
+        color: #fff;
+        font-size: 1.2rem;
+     }
+    .dropdwon{
+        display: none !important; 
+    }
+    .header_menu_section .main_menu .mid ul{
+      display: none;
+      position: absolute;
+      background: #ffff;
+      width: 100% !important;
+      left: 0 !important; 
+      text-align: left;
+      padding: 2rem;
+      top: 100%;
+    }
+    .header_menu_section .main_menu .mid li{
+      display: block !important;
+      transition: .4s;
+      margin-right: 5rem;
+    }
+    .header_menu_section .main_menu .mid li:hover{
+       background: rgb(255, 247, 247);
+    }
+    .header_menu_section .main_menu .mid ul li a {   
+        padding-left: 1rem;
+    }
+    .main_sec.clear {
+        padding: 1rem 0rem 1.5rem 0rem;
+    }
+    .top-header .main_sec .left {
+        width: 100%;
+        text-align: center;
+        border: 1px solid #ddd;
+        margin-bottom: 1rem;
+    }
+    .top-header .main_sec .right {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+    .top-header .main_menu .right {
+	    float: left;
+	    width: 84%;
+	    padding: 3rem 0;
+	    text-align: right;
+    }
+    #menu{
+        transition: .6s ease;
+    }
+
+    #menu:checked + ul{
+        display: block;
+    }
+    .header_menu_section .main_menu .mid ul li {
+	    display: inline-block;
+	    padding: 2rem 2rem;
+	    position: relative;
+    }
+ 
+    .admission-sec .f_left {
+	    width: 100%;
+        text-align: center;
+    }
+    .admission-sec .f_left img {
+	    width: 70%;
+        margin-bottom: 6rem;
+    }
+    .admission-sec .f_right {
+	    float: right;
+	    width: 100%;
+	    background: #f3f8fc;
+	    text-align: center;
+    }
+    .questions-sec {
+	    padding: 1rem 0;
+	    padding-bottom: 5rem;
+    }
+
+    .admission-sec .f_right .inner p {	
+	    margin: auto;
+    }
+    .admission-sec .f_right .inner {
+	    padding: 4.8rem 8rem;
+    }
+
+}
+
+@media all and (max-width:570px) {
+    .fixwidth {
+        width: 60rem;
+        margin: auto;
+    }
+    .full-about .main_about .left .box .image img {
+        margin-top: 5rem;
+        width: 12rem;
+    }
+    .fotter_section .subscribe .s_content .s_left h4 {
+        
+        margin-top: 3rem;
+    }
+    .fotter_section .subscribe .s_content .s_left h2 {
+        
+        font-size: 2rem;
+    }
+    .fotter_section .subscribe .s_content .s_right .email {
+        width: 23rem;
+        padding: 0rem 2rem;
+    }
+    .fotter_section .subscribe .s_content .s_right .submit { 
+        margin-left: 17.5rem;   
+        margin-top: 3rem;
+    }
+    .courses_section .card { 
+        width: 100%;  
+    }
+    .questions-sec {
+        padding: 1rem 0;
+        padding-bottom: 5rem;
+    }
+    .head {
+        padding-bottom: 6rem;
+    }
+    html {
+        font-size: 6px;
+    }
+    .full-banner {
+        padding: .5rem 0rem 17rem 0rem;
+    }
+    .full-banner .main_about .right {
+        margin-bottom: 5rem;
+    }
+    .category_section .carddd {
+        width: 100%;
+    }
+    .inner {
+        margin-bottom: 3rem;
+        padding-left: 7rem;
+    }
+    .rr{
+        padding-left: 0 !important;
+    }
+    .fotter_section .footer_item .footer_content {
+        float: left;
+        width: 50%;
+    }
+    .fotter_section {  
+        height: 98rem; 
+    }
+    .fotter_section .fotter_bottom .flot .part {
+        float: left;
+        width: 50%;
+    }
+    .fotter_section .fotter_bottom .flot .part_two {
+        float: left;
+        width: 50%;
+    }
+    .fotter_section .fotter_bottom .flot .part_three {
+        float: left;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .fotter_section .fotter_bottom .flot .part .inner_part {
+        text-align: left;
+        padding-left: 8rem;
+    }
+    .teacher_section .flot .box {
+        width: 100%;
+        float: left;
+    }
+    .teacher_section .flot .box .inner_box .image:hover .hover_div h4 {
+      
+        font-size: 3.3rem;
+    }
+    .teacher_section .flot .box .inner_box .image:hover::after {
+    
+        transform: scale(.8);
+    }
+    .teacher_section .flot .box .inner_box .image:hover .hover_div i {
+        font-size: 2.5rem;
+    }
+    .teacher_section .flot .box .inner_box .image .hover_div p {
+        font-size: 2.5rem;
+    }
+}
+@media all and (max-width:410px) {
+    .fixwidth {
+        width: 55rem;
+        margin: auto;
+    }
+    html {
+        font-size: 6px;
+    }
+    .full-banner .full_div h2 {
+        font-size: 2.3rem;
+        line-height: 4rem;
+    }
+    .full-banner { 
+        padding: 0rem 0rem 13rem 0rem;  
+    }
+    .full-about .main_about .right {
+        
+        margin-bottom: 5rem;
+    }
+    .admission-sec .f_left img {
+        width: 80%;
+        margin-bottom: 6rem;
+    }
+    .questions-sec {
+        padding: 1rem 0;
+        padding-bottom: 5rem;
+    }
+    .fotter_section .subscribe .s_content .s_left {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .fotter_section .subscribe .s_content .s_right {
+        float: right;
+        width: 100%;
+        margin-top: 3.5rem;
+        text-align: center;
+    }
+    .fotter_section .subscribe .s_content .s_right .submit {
+        margin-left: -0.5rem;
+    }
+    .fotter_section .subscribe {
+        padding-bottom: 2rem;
+    }
+    .news_section {
+       
+     padding-top: 5rem;
+     padding-bottom: 0;
+      
+    }
+    .fotter_section .subscribe .s_content .s_right {
+        margin-top: 0.5rem;
+    }
+    .fotter_section {
+        height: 105rem;   
+    }
+    .rr{
+        padding-left: 0 !important;
+    }
+    .inner {
+        margin-bottom: 3rem;
+        padding-left: 6rem;
+    }
+    .fotter_section .fotter_bottom .flot .part .inner_part {
+        text-align: left;
+        padding-left: 5rem;
+    }
+    .teacher_section .flot .box {
+        width: 100%;
+        float: left;
+    }
+    .teacher_section .flot .box .inner_box .image:hover .hover_div h4 {
+        font-size: 3rem;
+    }
+    .teacher_section .flot .box .inner_box .image:hover::after {
+        transform: scale(.8);
+    }
+    .teacher_section .flot .box .inner_box .image:hover .hover_div i {
+        font-size: 2rem;
+    }
+    .teacher_section .flot .box .inner_box .image .hover_div p {
+        font-size: 2rem;
+    }
+}
